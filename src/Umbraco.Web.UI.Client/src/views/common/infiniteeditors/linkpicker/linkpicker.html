@@ -16,6 +16,17 @@
 
                     <div ng-class="{'flex': showAnchor}">
 
+                        <umb-control-group label="Scheme" style="width: 50px;">
+                            <select name="scheme">
+                                <option>https://</option>
+                                <option>http://</option>
+                                <option>mailto:</option>
+                                <option>tel:</option>
+                                <option>/</option>
+                                <option>//</option>
+                            </select>
+                        </umb-control-group>
+
                         <umb-control-group label="@defaultdialogs_urlLinkPicker" class="umb-linkpicker__url">
                             <input type="text"
                                     style="margin-right: 10px;"
